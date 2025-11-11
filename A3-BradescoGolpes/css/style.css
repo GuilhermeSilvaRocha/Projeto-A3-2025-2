@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(235, 17, 17);
+}
+
+header{
+    background-color: rgb(218, 6, 6);
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 2.5em; /* proporcional ao h1 */
+    width: auto;
+}
+
+.menu{
+     margin: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.menu a{
+    text-decoration: none;
+}

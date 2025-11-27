@@ -1,0 +1,5 @@
+com\golpedopresente\service\GoogleSafeBrowsingService.class
+com\golpedopresente\GolpeDoPresenteApplication.class
+com\golpedopresente\controller\DenunciaController.class
+com\golpedopresente\model\Denuncia.class
+com\golpedopresente\repository\DenunciaRepository.class

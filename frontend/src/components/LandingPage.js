@@ -5,9 +5,9 @@ import { useNavigate } from "react-router-dom";
 export default function LandingPage() {
   const navigate = useNavigate();
   return (
-    <div className="text-center bg-white text-danger vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div className="landing text-center bg-white text-danger d-flex flex-column justify-content-center align-items-center">
       <h1>🚨 Golpe do Presente</h1>
-      <p className="w-50">
+      <p className="mx-auto" style={{maxWidth: 720}}>
         O “Golpe do Presente” é um tipo de fraude online em que criminosos enviam links
         falsos prometendo brindes ou ofertas. Nunca clique em links suspeitos.
       </p>

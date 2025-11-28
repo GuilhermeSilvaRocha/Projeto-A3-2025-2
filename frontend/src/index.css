@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Regras restauradas do backup (css/style.css) */
+body{
+  background-color: #ffffff; /* voltar corpo para branco */
+}
+
+header{
+  background-color: rgb(218, 6, 6);
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 2.5em; /* proporcional ao h1 */
+  width: auto;
+}
+
+.menu{
+   margin: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.menu a{
+  text-decoration: none;
+}
+
+/* App layout: keep footer at bottom and header smaller */
+.app-container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex: 1 0 auto;
+}
+
+header.app-header{
+  background-color: rgb(218,6,6);
+  padding: 0.6rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-brand{font-size: 1rem; color: white; margin: 0}
+.header-title{font-size: 1.15rem; color: white; margin: 0}
+
+.menu{margin: 0; gap: 0.6rem}
+.menu-link{color: white; background-color: rgba(219,60,60,0.692); padding: 4px 8px; border-radius: 6px; text-decoration: none; font-size: 0.95rem}
+.menu-link:hover{opacity:0.9}
+
+.logo img{height:2.2rem}
+
+.app-footer{
+  background-color: rgb(218,6,6);
+  padding: 0.5rem 1rem;
+  color: white;
+  margin-top: 0;
+}
+
+/* small responsiveness */
+@media (max-width: 768px){
+  .header-title{font-size:1rem}
+  .menu-link{font-size:0.85rem; padding:3px 6px}
+  .logo img{height:1.8rem}
+}
+
+/* Landing page tweaks */
+.landing{
+  padding: 2.5rem 1rem;
+  min-height: 60vh;
+  box-sizing: border-box;
+}
